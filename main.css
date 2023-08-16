@@ -1,0 +1,28 @@
+.fs-0 {
+  font-size: 4rem;
+}
+.fs-7 {
+  font-size: 0.8rem;
+}
+.bg-gray {
+  background-color: #f0f2f5;
+}
+/* nav button */
+.nav_btn button:hover {
+  background: #f0f2f5;
+}
+.nav_btn button:hover i {
+  background: #0d6efd;
+}
+.nav_btn-active i {
+  color: #0d6efd;
+}
+@media (min-width: 62em) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: rfs-fluid-value(2rem);
+    font-size: rfs-fluid-value(1.125rem);
+  }
+}
